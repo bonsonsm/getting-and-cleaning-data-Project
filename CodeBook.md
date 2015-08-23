@@ -13,14 +13,14 @@ The code is fully commented and should assist in understanding:
 ## Step 1: Merges the training and the test sets to create one data set.
 
 In this step the training and test data were merged. The following files were read and merged:
-1. features.txt
-2. X_train.txt
-3. X_test.txt
-4. Subject_train.txt
-5. Subject_test.txt
-6. y_train.txt
-7. y_test.txt
-8. activtylabels.txt
+ 1. features.txt
+ 2. X_train.txt
+ 3. X_test.txt
+ 4. Subject_train.txt
+ 5. Subject_test.txt
+ 6. y_train.txt
+ 7. y_test.txt
+ 8. activtylabels.txt
 
 The activity labels were classified as factors.
 
