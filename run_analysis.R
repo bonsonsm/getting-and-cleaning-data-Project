@@ -77,8 +77,9 @@ run_analysis<-function(){
     names(mean_std_data) <- gsub("Gyro", "Gyroscope", names(mean_std_data))
     names(mean_std_data) <- gsub("Mag", "Magnitude", names(mean_std_data))
     names(mean_std_data) <- gsub("BodyBody", "Body", names(mean_std_data))
-    print(colnames(mean_std_data))
+    #print(colnames(mean_std_data))
     
-     
+    #Writing the data to a file
+    write.table(mean_std_data, "./tidydata.txt", row.name=FALSE) 
     
 }
